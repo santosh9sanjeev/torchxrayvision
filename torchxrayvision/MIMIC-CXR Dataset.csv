@@ -1,0 +1,91 @@
+MIMIC-CXR Dataset
+
+using mimic-ch pretrained model
+
+Epoch 1 - test - Avg AUC = 0.7382
+Model pathologies: ['Atelectasis', 'Consolidation', '', 'Pneumothorax', 'Edema', '', '', 'Effusion', 'Pneumonia', '', 'Cardiomegaly', '', '', '', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+Dataset pathologies: ['Atelectasis', 'Consolidation', '', 'Pneumothorax', 'Edema', '', '', 'Effusion', 'Pneumonia', '', 'Cardiomegaly', '', '', '', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+Atelectasis 0.7890363488112608
+Consolidation 0.7969582952145772
+Pneumothorax 0.6340344847588388
+Edema 0.8193681892028999
+Effusion 0.8297485025068391
+Pneumonia 0.6967690058479533
+Cardiomegaly 0.7839592930756079
+Lung Lesion 0.6572429970269755
+Fracture 0.6540924168788089
+Lung Opacity 0.7327674503061359
+Enlarged Cardiomediastinum 0.7263129027834909
+pathologies ['Atelectasis', 'Consolidation', '', 'Pneumothorax', 'Edema', '', '', 'Effusion', 'Pneumonia', '', 'Cardiomegaly', '', '', '', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+op_threshs [0.60613793, 0.527597, np.nan, 0.50430727, 0.5152654, np.nan, np.nan, 0.62961966, 0.52412546, np.nan, 0.56887484, np.nan, np.nan, np.nan, 0.51986456, 0.5053226, 0.5950819, 0.5139791]
+min [0.5007713, 0.5000007, np.nan, 0.5, 0.5, np.nan, np.nan, 0.50000274, 0.50000054, np.nan, 0.50004226, np.nan, np.nan, np.nan, 0.50001323, 0.5004083, 0.50001633, 0.50000066]
+max [0.72815394, 0.72114533, np.nan, 0.7182042, 0.7227879, np.nan, np.nan, 0.7302174, 0.683634, np.nan, 0.72160685, np.nan, np.nan, np.nan, 0.7257227, 0.7096213, 0.72343445, 0.7027192]
+ppv80 [0.6541609, 0.6847979, np.nan, 0.7182042, 0.5995194, np.nan, np.nan, 0.6473002, 0.6395778, np.nan, 0.62926406, np.nan, np.nan, np.nan, 0.7257227, 0.7096213, 0.6199622, 0.7027192]
+
+CHEXPERT
+
+Epoch 1 - test - Avg AUC = 0.7213
+Model pathologies: ['Atelectasis', 'Consolidation', '', 'Pneumothorax', 'Edema', '', '', 'Effusion', 'Pneumonia', '', 'Cardiomegaly', '', '', '', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+Dataset pathologies: ['Atelectasis', 'Consolidation', '', 'Pneumothorax', 'Edema', '', '', 'Effusion', 'Pneumonia', '', 'Cardiomegaly', '', '', '', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+Atelectasis 0.743466226075015
+Consolidation 0.7488701944572462
+Pneumothorax 0.6505191565880681
+Edema 0.8237299890192453
+Effusion 0.8068416877688622
+Pneumonia 0.6660124269005848
+Cardiomegaly 0.7875657472929332
+Lung Lesion 0.6514469628781059
+Fracture 0.6508042119879658
+Lung Opacity 0.697961175515948
+Enlarged Cardiomediastinum 0.7069582001708699
+pathologies ['Atelectasis', 'Consolidation', '', 'Pneumothorax', 'Edema', '', '', 'Effusion', 'Pneumonia', '', 'Cardiomegaly', '', '', '', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+op_threshs [0.6664113, 0.56460065, np.nan, 0.5070291, 0.63201123, np.nan, np.nan, 0.6732711, 0.53543454, np.nan, 0.66745234, np.nan, np.nan, np.nan, 0.52981555, 0.5624316, 0.6849682, 0.5838932]
+min [0.50017637, 0.50065356, np.nan, 0.50036925, 0.50083995, np.nan, np.nan, 0.5026008, 0.5002844, np.nan, 0.5003964, np.nan, np.nan, np.nan, 0.5004693, 0.50056154, 0.5055125, 0.5001702]
+max [0.72709584, 0.72085524, np.nan, 0.58022046, 0.7210494, np.nan, np.nan, 0.72953945, 0.70424056, np.nan, 0.73044646, np.nan, np.nan, np.nan, 0.7252773, 0.7251432, 0.72945243, 0.71987796]
+ppv80 [0.7138016, 0.7198351, np.nan, 0.58022046, 0.7210494, np.nan, np.nan, 0.69908816, 0.69662726, np.nan, 0.7049151, np.nan, np.nan, np.nan, 0.7252773, 0.7178639, 0.7080813, 0.71987796]
+
+
+DenseNet ALL Model
+
+Epoch 1 - test - Avg AUC = 0.7813
+Model pathologies: ['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumothorax', 'Edema', 'Emphysema', 'Fibrosis', 'Effusion', 'Pneumonia', 'Pleural_Thickening', 'Cardiomegaly', 'Nodule', 'Mass', 'Hernia', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+Dataset pathologies: ['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumothorax', 'Edema', 'Emphysema', 'Fibrosis', 'Effusion', 'Pneumonia', 'Pleural_Thickening', 'Cardiomegaly', 'Nodule', 'Mass', 'Hernia', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+Atelectasis 0.7947965839842073
+Consolidation 0.8473094463436948
+Pneumothorax 0.6736854317120567
+Edema 0.8684685378900255
+Effusion 0.8631245487181052
+Pneumonia 0.7539729532163743
+Cardiomegaly 0.824453243731003
+Lung Lesion 0.7446608297193357
+Fracture 0.6872058936974467
+Lung Opacity 0.7650571131879544
+Enlarged Cardiomediastinum 0.7712980835152781
+pathologies ['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumothorax', 'Edema', 'Emphysema', 'Fibrosis', 'Effusion', 'Pneumonia', 'Pleural_Thickening', 'Cardiomegaly', 'Nodule', 'Mass', 'Hernia', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+op_threshs [0.6027905, 0.53241175, np.nan, 0.5082257, 0.5573545, np.nan, np.nan, 0.6271727, 0.5493853, np.nan, 0.6016163, np.nan, np.nan, np.nan, 0.5195588, 0.51987356, 0.61599493, 0.5306017]
+min [0.5007067, 0.5003041, np.nan, 0.5000372, 0.5000079, np.nan, np.nan, 0.5001496, 0.5007555, np.nan, 0.5000438, np.nan, np.nan, np.nan, 0.5000719, 0.50116926, 0.50196105, 0.50046784]
+max [0.7238695, 0.7150929, np.nan, 0.5765648, 0.72750676, np.nan, np.nan, 0.727854, 0.7258926, np.nan, 0.72802854, np.nan, np.nan, np.nan, 0.7215791, 0.66278076, 0.72983205, 0.71747166]
+ppv80 [0.6380054, 0.6907566, np.nan, 0.5765648, 0.6247697, np.nan, np.nan, 0.6317445, 0.7168549, np.nan, 0.6171086, np.nan, np.nan, np.nan, 0.6944622, 0.66278076, 0.61772263, 0.7058424]
+
+
+ResNet-50 ALL
+
+Epoch 1 - test - Avg AUC = 0.6838
+Model pathologies: ['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumothorax', 'Edema', 'Emphysema', 'Fibrosis', 'Effusion', 'Pneumonia', 'Pleural_Thickening', 'Cardiomegaly', 'Nodule', 'Mass', 'Hernia', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+Dataset pathologies: ['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumothorax', 'Edema', 'Emphysema', 'Fibrosis', 'Effusion', 'Pneumonia', 'Pleural_Thickening', 'Cardiomegaly', 'Nodule', 'Mass', 'Hernia', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+Atelectasis 0.6333769633507853
+Consolidation 0.7939936304418107
+Pneumothorax 0.6802183938049248
+Edema 0.7984349213688057
+Effusion 0.8357923747343158
+Pneumonia 0.6914839181286551
+Cardiomegaly 0.7548635187120061
+Lung Lesion 0.5
+Fracture 0.6557509835686184
+Lung Opacity 0.6782375488710712
+Enlarged Cardiomediastinum 0.5
+pathologies ['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumothorax', 'Edema', 'Emphysema', 'Fibrosis', 'Effusion', 'Pneumonia', 'Pleural_Thickening', 'Cardiomegaly', 'Nodule', 'Mass', 'Hernia', 'Lung Lesion', 'Fracture', 'Lung Opacity', 'Enlarged Cardiomediastinum']
+op_threshs [0.53041923, 0.5127065, np.nan, 0.5069036, 0.50333804, np.nan, np.nan, 0.5461591, 0.5085815, np.nan, 0.50753546, np.nan, np.nan, np.nan, 1.6224594, 0.50953984, 0.5294047, 1.6224594]
+min [0.5007772, 0.5001854, np.nan, 0.50000066, 0.50000024, np.nan, np.nan, 0.5000613, 0.5000181, np.nan, 0.5000021, np.nan, np.nan, np.nan, 0.62245935, 0.50001085, 0.5, 0.62245935]
+max [0.69031554, 0.6389848, np.nan, 0.6473344, 0.58520895, np.nan, np.nan, 0.7292967, 0.6736778, np.nan, 0.72343653, np.nan, np.nan, np.nan, 0.62245935, 0.7308895, 0.7310492, 0.62245935]
+ppv80 [0.69031554, 0.62887627, np.nan, 0.6473344, 0.50691515, np.nan, np.nan, 0.54361326, 0.60232335, np.nan, 0.52313894, np.nan, np.nan, np.nan, 0.62245935, 0.6886243, 0.5572892, 0.62245935]
